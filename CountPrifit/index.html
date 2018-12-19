@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="styles.css" rel="stylesheet">
+    <title>Profit Calculator</title>
+</head>
+<body>
+    <div class="main__wrap">
+        <div class="main" id="main">
+            <label class="flexed margened label--start_amount">
+                <p class="text">Start amount:</p>
+                <input type="number" class="input input--start_amount" id="startAmountJs">
+            </label>
+            <label class="flexed margened">
+                <p class="text">Buy price:</p>
+                <input type="number" class="input input--buy_price" id="buyPriceJs">
+            </label>
+            <label class="flexed margened">
+                <p class="text">Sell price:</p>
+                <input type="number" class="input input--sell_price" id="sellPriceJs">
+            </label>
+            <!-- <a href="javascript:void(0)" class="btn" id="btnJs">Рассчитать</a> -->
+            <div class="flexed margened">
+                <p class="text">Difference: </p>
+                <span id="differenceJs"></span>
+            </div>
+            <div class="flexed">
+                <p class="text">Final amount: </p>
+                <span id="finalAmountJs"></span>
+            </div>
+        </div>
+    </div>
+    <script src="./scripts.js"></script>
+</body>
+</html>
